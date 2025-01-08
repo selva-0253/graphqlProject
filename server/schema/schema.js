@@ -279,6 +279,7 @@ const Mutation = new GraphQLObjectType({
                 return hobby.save();
             }
         },
+        
         UpdateHobby: {
             type: HobbyType,
             args: {
